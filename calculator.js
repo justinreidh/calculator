@@ -31,9 +31,9 @@ const operate = function(operator, a, b) {
 
 const changeDisplay = function(arr = '0') {
     if (arr == 'ac') {
-        document.querySelector('#screen').textContent = '0'
+        document.querySelector('#screenDisplay').textContent = '0'
     } else {
-        document.querySelector('#screen').textContent = arr
+        document.querySelector('#screenDisplay').textContent = arr
     }
 }
 changeDisplay()
